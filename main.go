@@ -20,6 +20,7 @@ func IncomingString(words string) {
 	fmt.Println("Изначальная строка была: ", words)
 }
 
+// создал три горутины, которые работают со строкой. В принципе здесь все понятно
 func main() {
 
 	var wg sync.WaitGroup
